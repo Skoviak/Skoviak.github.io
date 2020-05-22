@@ -6,22 +6,22 @@
 
 @font-face {
     font-family: "Aerologica";
-    src: url("fonts/AerologicaRegular.ttf");
+    src: url("../fonts/AerologicaRegular.ttf");
 }
 
 @font-face {
     font-family: "Bladeline";
-    src: url("fonts/Bladeline.ttf");
+    src: url("../fonts/Bladeline.ttf");
 }
 
 @font-face {
     font-family: "Diabolica";
-    src: url("fonts/Diabolica.ttf");
+    src: url("../fonts/Diabolica.ttf");
 }
 
 @font-face {
     font-family: "Neoncity";
-    src: url("fonts/Neoncity.otf");
+    src: url("../fonts/Neoncity.otf");
 }
 
                                                     /* FLEX SET UP */
