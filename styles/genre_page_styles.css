@@ -1,0 +1,281 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+@font-face {
+    font-family: "Aerologica";
+    src: url("fonts/AerologicaRegular.ttf");
+}
+
+@font-face {
+    font-family: "Bladeline";
+    src: url("fonts/Bladeline.ttf");
+}
+
+@font-face {
+    font-family: "Diabolica";
+    src: url("fonts/Diabolica.ttf");
+}
+
+@font-face {
+    font-family: "Neoncity";
+    src: url("fonts/Neoncity.otf");
+}
+
+                                                    /* FLEX SET UP */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 1000px;
+    /*max-width: 1030px;*/
+}
+
+                                                    /* NAV */
+
+nav{
+    font-family: "Neoncity", Helvetica, sans-serif;
+    text-align: left;
+    font-size: 2em;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+    display: inline;
+}
+
+    nav a, nav a:visited{
+        color: goldenrod;
+    }
+    nav a:hover, #subgenres li:hover {
+        color: brown;
+        cursor: pointer;
+    }
+                                                    /* GENERAL STYLES */
+p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+h1{
+    font-family: "Aerologica", Helvetica, sans-serif;
+    font-size: 3em;
+    text-shadow: 0 0 2px goldenrod, 0 0 2px goldenrod, 0 0 2px goldenrod, 0 0 2px goldenrod;
+    }
+
+    h1 a{
+        text-decoration: none;
+    }
+
+    h1 a:visited{
+        color: black;
+    }
+
+    h1 a:hover{
+        color: goldenrod;
+        cursor: pointer;
+    }
+
+img{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+html{
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 2px black, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000;
+    position: flex;
+    float: right;
+    width: 100%;
+    margin-top: 50vh;
+}
+
+                                                    /* INDEX PAGE */
+
+tr, td {
+    border-style: double;
+    border-width: 2px;
+    text-align: center;
+    padding-top: 5px;
+    max-width: 120px;
+    min-width: 20px;
+}
+
+                                                    /* GENRE PAGES */
+#title{
+
+}
+
+.sideLabel {
+    float: left;
+    width: 3%;
+    height: 100vh;
+    padding-top: 3%;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*background-color: black;*/
+    /*opacity: 0.8;*/
+}
+
+form {
+
+}
+
+    #search_button, #search_box {
+        font-size: 1.5em;
+        font-family: "Diabolica", Helvetica, sans-serif
+    }
+
+    #search {
+        /*padding-left: 70vw;*/
+        padding-bottom: 1vh;
+        padding-top: 1vh;
+        padding-right: 14vh;
+        text-align: right;
+    }
+
+#subgenres {
+    /*padding-left: 50vw;*/
+    /*float: right;*/
+}
+
+#subgenres ul {
+    color: goldenrod;
+    list-style: none;
+    font-family: "Neoncity", Helvetica, sans-serif;
+    padding-right: 6vw;
+    text-align: right;
+    font-size: 1.5em;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+}
+
+#subgenres li{
+    display: inline;
+    padding-right: 10px;
+}
+
+#leftContent{
+    float: left;
+    width: 43vw;
+}
+
+#rightContent {
+    float: right;
+    max-width: 50vw;
+}
+
+.albums {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 80vh;
+    overflow-y: scroll;
+}
+
+.details{
+    /*POSITIONING*/
+    float: left;
+    height: auto;
+    margin-top: 20px;
+
+    background: rgba(0, 0, 0, 0.85);
+}
+
+    .details p{
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+    }
+
+                                                  /* METAL PAGE */
+#metal{
+    min-height: 110vh;
+}
+
+
+#metal .albums {
+
+}
+
+#metal .details{
+    /*TEXT STYLING*/
+    color: white;
+    text-shadow: 0 0 1px black, 0 0 1px #000000, 0 0 1px #000000, 0 0 1px #000000;
+    font-size: 1em;
+    text-align: center;
+}
+
+#metal .details h1{
+    text-shadow: 0 0 1px black, 0 0 1px #000000, 0 0 1px #000000, 0 0 1px #000000;
+}
+
+#metal .details p{
+    text-align: justify;
+}
+
+#metal .albums .title, #metal .albums img {
+    font-family: "Diabolica", Helvetica, sans-serif;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+    color: white;
+    max-width: 200px;
+}
+
+                                                 /* PROG PAGE */
+#prog{
+    min-height: 110vh;
+}
+
+#prog .albums {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    max-width: 50vw;
+    max-height: 80vh;
+    overflow-y: scroll;
+}
+
+#prog .details{
+    /*TEXT STYLING*/
+    color: darkgoldenrod;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+    font-size: 1em;
+    text-align: center;
+    /*POSITIONING*/
+    float: left;
+    width: 40vw;
+    height: auto;
+    margin-top: 20px;
+
+    background: rgba(0, 0, 0, 0.85);
+}
+
+#prog .details p{
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+#prog .albums .title, #prog .albums img {
+    font-family: "Diabolica", Helvetica, sans-serif;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+    color: white;
+    max-width: 200px;
+}
+
+.classical p, .classical img {
+    font-family: Helvetica, sans-serif;
+    text-shadow: 0 0 1px goldenrod, 0 0 1px #daa520, 0 0 1px goldenrod, 0 0 1px goldenrod;
+    max-width: 200px;
+}
+
+
+

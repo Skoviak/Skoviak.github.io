@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>REPRIEVE OF SOUND</title>
+    <link href="images/album_covers/genre_page_styles.css" rel="stylesheet" type="text/css">
+    <script src="images/album_covers/jquery.js"></script>
+    <script src="images/album_covers/genre_page_script.js"></script>
+    <script>
+        // $(function(){
+        //     $(".albumCover").click(function(){
+        //         var albumid = $(this).attr('id');
+        //         var searchterm = $("#search_box").val();
+        //         $.post("php_functions/get_description_metal.php", {albumID : albumid, searchTerm : searchterm}, function(result){
+        //             $(".details").html(result);
+        //         });
+        //     })
+        // })
+    </script>
+</head>
+
+<body>
+<h1 class="sideLabel">M<br>E<br>T<br>A<br>L</h1>
+<div id="metal">
+    <div id="leftContent">
+        <div id="title">
+            <h1><a href="index.html">REPRIEVE OF SOUND</a></h1>
+        </div>
+
+        <div id="nav">
+
+            <nav>
+                <a href="classical.html">Classical</a>
+                <a href="electronic.html">Electronic</a>
+                <a href="jazz.html">Jazz</a>
+                <a href="metal.html">Metal</a>
+                <a href="prog.html">Prog</a>
+                <a href="game.html">Video Game</a>
+            </nav>
+        </div>
+
+        <div class="details" style="visibility: hidden;"> <h1>City of Evil</h1>
+            <p>City of Evil starts off with the Beast and the Harlot, a...</p>
+        </div>
+    </div>
+
+    <div id="rightContent">
+        <div class="search">
+            <form id="search" method="post">
+                <input id="search_box" name="txtSearch" type="text">
+                <input id="search_button" name="btnSearch" value="SEARCH" type="submit">
+            </form>
+        </div>
+
+        <div id="subgenres">
+            <ul>
+                <li>Metal</li><li>Metal (Symphonic &amp; Folk)</li><li>Progressive (Metal)</li>            </ul>
+        </div>
+
+        <div class="albums">
+            <div class="albumCover" id="1" style="cursor: pointer;">
+                <img id="avengedSevenfold_CityofEvil.jpg" src="images/album_covers/avengedSevenfold_CityofEvil.jpg" style="display: inline-block; width: 200px; height: 200px; max-width: 600px;" class="" width="200" height="200">
+                <p class="title" style="font-size: 1.2em; width: 600px; max-width: 200px;">Avenged Sevenfold<br>City of Evil</p>
+            </div><div class="albumCover" id="2" style="cursor: pointer;">
+            <img id="equilibrium_Sagas.jpg" src="images/album_covers/equilibrium_Sagas.jpg" width="200" height="200">
+            <p class="title">Equilibrium<br>Sagas</p>
+        </div><div class="albumCover" id="3" style="cursor: pointer;">
+            <img id="ironMaiden_DanceofDeath.jpg" src="images/album_covers/ironMaiden_DanceofDeath.jpg" width="200" height="200">
+            <p class="title">Iron Maiden<br>Dance of Death</p>
+        </div><div class="albumCover" id="4" style="cursor: pointer;">
+            <img id="lucaTurillisRhapsody_AscendingtoInfinity.jpg" src="images/album_covers/lucaTurillisRhapsody_AscendingtoInfinity.jpg" width="200" height="200">
+            <p class="title">Luca Turilli's Rhapsody<br>Ascending to Infinity</p>
+        </div><div class="albumCover" id="5" style="cursor: pointer;">
+            <img id="marchenStation_WorldofMaquillage.jpg" src="images/album_covers/marchenStation_WorldofMaquillage.jpg" width="200" height="200">
+            <p class="title">Marchen Station<br>World of Maquillage</p>
+        </div><div class="albumCover" id="6" style="cursor: pointer;">
+            <img id="onymoZa_KikokuTensho.jpg" src="images/album_covers/onymoZa_KikokuTensho.jpg" width="200" height="200">
+            <p class="title">Onymo-Za<br>Kikoku Tensho</p>
+        </div><div class="albumCover" id="7" style="cursor: pointer;">
+            <img id="turisas_BattleMetal.jpg" src="images/album_covers/turisas_BattleMetal.jpg" width="200" height="200">
+            <p class="title">Turisas<br>Battle Metal</p>
+        </div><div class="albumCover" id="8" style="cursor: pointer;">
+            <img id="twilightForce_TalesofAncientProphecies.jpg" src="images/album_covers/twilightForce_TalesofAncientProphecies.jpg" width="200" height="200">
+            <p class="title">Twilight Force<br>Tales of Ancient Prophecies</p>
+        </div><div class="albumCover" id="9" style="cursor: pointer;">
+            <img id="twilightForce_HeroesofMightyMagic.jpg" src="images/album_covers/twilightForce_HeroesofMightyMagic.jpg" width="200" height="200">
+            <p class="title">Twilight Force<br>Heroes of Mighty Magic</p>
+        </div><div class="albumCover" id="10" style="cursor: pointer;">
+            <img id="twilightForce_DawnoftheDragonstar.jpg" src="images/album_covers/twilightForce_DawnoftheDragonstar.jpg" width="200" height="200">
+            <p class="title">Twilight Force<br>Dawn of the Dragonstar</p>
+        </div><div class="albumCover" id="11" style="cursor: pointer;">
+            <img id="unluckyMorpheus_Takiyashihime.jpg" src="images/album_covers/unluckyMorpheus_Takiyashihime.jpg" width="200" height="200">
+            <p class="title">Unlucky Morpheus<br>Takiyashihime</p>
+        </div><div class="albumCover" id="12" style="cursor: pointer;">
+            <img id="wilderun_OldenTalesandDeathlyTrails.jpg" src="images/album_covers/wilderun_OldenTalesandDeathlyTrails.jpg" width="200" height="200">
+            <p class="title">Wilderun<br>Olden Tales and Deathly Trails</p>
+        </div><div class="albumCover" id="13" style="cursor: pointer;">
+            <img id="wilderun_SleepattheEdgeoftheEarth.jpg" src="images/album_covers/wilderun_SleepattheEdgeoftheEarth.jpg" width="200" height="200">
+            <p class="title">Wilderun<br>Sleep at the Edge of the Earth</p>
+        </div><div class="albumCover" id="14" style="cursor: pointer;">
+            <img id="wilderun_VeilofImagination.jpg" src="images/album_covers/wilderun_VeilofImagination.jpg" width="200" height="200">
+            <p class="title">Wilderun<br>Veil of Imagination</p>
+        </div>        </div>
+    </div>
+
+    <div id="footer">
+
+        <footer>
+            © 2020 Tony Skoviak. Contact me at tonyskoviak@gmail.com with
+            any comments on the site design, music recommendations, or whatever else
+            you want to talk to me about!
+        </footer>    </div>
+</div>
+
+</body></html>
