@@ -4,7 +4,6 @@
     border: 0px;
 }
 
-                    /*FONTS*/
 @font-face {
     font-family: "Aerologica";
     src: url("../fonts/AerologicaRegular.ttf");
@@ -25,7 +24,7 @@
     src: url("../fonts/Neoncity.otf");
 }
 
-                    /* FLEX SET UP */
+                                                    /* FLEX SET UP */
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -33,7 +32,7 @@
     /*max-width: 1030px;*/
 }
 
-                    /* NAV */
+                                                    /* NAV */
 
 nav{
     font-family: "Neoncity", Helvetica, sans-serif;
@@ -43,15 +42,14 @@ nav{
     display: inline;
 }
 
-nav a, nav a:visited{
-    color: goldenrod;
-}
-nav a:hover, #subgenres li:hover {
-    color: brown;
-    cursor: pointer;
-}
-
-                    /* GENERAL STYLES */
+    nav a, nav a:visited{
+        color: goldenrod;
+    }
+    nav a:hover, #subgenres li:hover {
+        color: brown;
+        cursor: pointer;
+    }
+                                                    /* GENERAL STYLES */
 p {
     text-align: center;
     font-size: 1.2em;
@@ -98,6 +96,8 @@ footer {
     margin-top: 50vh;
 }
 
+                                                    /* INDEX PAGE */
+
 tr, td {
     border-style: double;
     border-width: 2px;
@@ -107,7 +107,7 @@ tr, td {
     min-width: 20px;
 }
 
-                    /* GENRE PAGES */
+                                                    /* GENRE PAGES */
 #title{
 
 }
@@ -194,7 +194,7 @@ form {
         padding-bottom: 15px;
     }
 
-                    /* METAL PAGE */
+                                                  /* METAL PAGE */
 #metal{
     min-height: 110vh;
 }
@@ -227,7 +227,7 @@ form {
     max-width: 200px;
 }
 
-                    /* PROG PAGE */
+                                                 /* PROG PAGE */
 #prog{
     min-height: 110vh;
 }
